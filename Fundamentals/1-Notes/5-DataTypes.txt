@@ -1,0 +1,41 @@
+STRING
+    -String of caracters
+        +That represents text
+        +Use the quotes: "double" and 'simple' to represent them in code
+        +Can contain any type of text
+
+    -Example: let name = 'David';
+
+NUMBER
+    -Numeric Data
+        +That represents a number
+        +Meets the standard IEEE 754 of 64 bits
+        +Can hold up to a max and minimum of values (the ones out of that range are interpreted as Infinity)
+        +"Nan" is a special value, product off an arithmetic expression that can't be represented/expressed
+
+    -Example: let price = 185;
+
+
+BOOLEAN
+    -Logic Data
+        +Can hold 2 values: true or false
+        +Used in conditionals and loops
+        +Used as a value in the return of a function
+    
+    -Example: let userActive = true;
+
+*UNDEFINED
+    *not a type per se that we can assign
+    -Default value
+        +It is automatically assigned by JS to variables that've only been declared, but have no assigned value
+    
+    -Example: let ourValue;
+
+NULL
+    -Referenced value (for js null is an object)
+        +value that we will use intentionally to indicate that a variable has a non-existent value
+        +It is NOT A PRIMITIVE TYPE (unlike the other previously mentioned)
+
+    -Example: let ourValue = null;
+
+

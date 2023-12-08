@@ -1,0 +1,17 @@
+HOISTING
+The use of var in JavaScript is discouraged for several reasons, and one of them is directly related
+with hoisting behavior that can lead to unexpected and difficult to track behavior in the code.
+Here are some reasons why using var is not recommended:
+
+-Unintentional global scope: When var is used to declare variables within blocks (such as functions),
+these variables may have unintended global scope. This can lead to overwriting existing global variables,
+which can be problematic in large and complex applications.
+
+-Problems with hoisting: var suffers from hoisting, which means that declarations are elevated to the beginning of their scope.
+This can lead to situations where a variable is used before its declaration, resulting in unexpected and difficult to trace behavior.
+
+-Redeclaration problems: Unlike let and const, var allows the redeclaration of a variable without throwing an error,
+which can lead to difficult to debug bugs in the code.
+
+-Block scope: var does not respect the block scope, since its scope is limited to the function scope.
+This can cause confusion and errors when using var variables inside blocks like if, for, while, etc.

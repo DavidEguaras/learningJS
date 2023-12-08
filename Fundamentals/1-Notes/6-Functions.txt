@@ -1,0 +1,35 @@
+WHAT IS A FUNCTION?
+    -Is a block of code that performs tasks or calculation in a cohesive way
+    -They are used, mainly, to avoid the repetition/duplication of code
+
+
+NOMENCLATURE
+    -camelCase (isLikeThis)
+    -No spaces
+    -No numbers
+    -No puntuation signs
+
+
+USE OF A FUNCTION
+    they are invoked by writing their name
+
+
+EXAMPLE
+
+    function writeName(){
+        console.log("David");
+    }
+
+    writeName();
+
+RETURN OF A FUNCTION
+    -The function will return some value
+
+    function getName(){
+       let name = "David";
+    }
+
+    writeName();
+
+
+

@@ -1,0 +1,20 @@
+-Always use ; at the end of the line
+     because:
+         +The script does not show errors due to the automatic semicolon insertion
+         +The code will be cleaner and more readable
+
+
+- JS is CASE SENSITIVE
+     +That is, if you, for example, have a variable called name and you try to use it by referencing it with Name, it will not be the same variable
+
+
+-IMPORTANT TO USE TABULATIONS AND SPACES
+
+
+-ALWAYS WRITE IN ENGLISH
+
+-VALID DEFINITIONS:
+     +capital letters
+     +lowercase
+     +From 0-9 and letters (never numbers alone)
+     +underscores

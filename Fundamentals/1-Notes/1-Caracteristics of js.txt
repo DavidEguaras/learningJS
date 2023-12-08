@@ -1,0 +1,17 @@
+-Interpreted (java is compiled, js is interpreted)
+     Interpreted languages have a very agile implementation since the code is read line by line, and allows us to be multiplatform, since it is independent of the OS
+     in which it is executed
+
+-Performance
+
+-Dynamic Typing
+     A statically typed object would be, for example, an object that cannot change shape, while a dynamic type refers to an object without shape, which
+     can be defined and adapted to what we need
+     It means that data types are evaluated at runtime.
+     In a dynamically typed language, it is not necessary to explicitly declare the type of a variable when creating it,
+     and this can change type during the execution of the program.
+    
+-Weakly typed
+     It refers to the flexibility in converting data types into operations. In a weakly typed language,
+     conversions between data types are performed automatically and less strictly, allowing operations
+     between different types without the need for explicit conversion.
