@@ -8,10 +8,11 @@ NOMENCLATURE
     -No spaces
     -No numbers
     -No puntuation signs
+    -The name of the function has to be as descriptive(on what the function does) as possible 
 
 
 USE OF A FUNCTION
-    they are invoked by writing their name
+    -They are invoked by writing their name
 
 
 EXAMPLE
@@ -27,6 +28,7 @@ RETURN OF A FUNCTION
 
     function getName(){
        let name = "David";
+       return name; <--The function will return the value name
     }
 
     writeName();
