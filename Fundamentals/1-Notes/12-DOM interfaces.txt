@@ -1,0 +1,9 @@
+DOM INTERFACES
+    -Window: Represents a window contained in the DOM
+
+    -Document: Represents the DOM itself
+
+    -Event: Represents an event that happens in the DOM
+
+    -Element: Represents a node from the DOM
+    
