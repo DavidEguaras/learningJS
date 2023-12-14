@@ -8,7 +8,7 @@ and style of HTML and XML documents.
     -Document Representation: The DOM represents the document as a tree-like structure where each node represents an object in the document. 
     The document itself is the root node, with elements, attributes, and text as its branches and leaves.
 
-    -Structured Hierarchy: Every element in an HTML document, such as <body>, <p>, <div>, etc., is represented as a node in the DOM tree. 
+    -Structu1red Hierarchy: Every elemaent in an HTML document, such as <body>, <p>, <div>, etc., is represented as a node in the DOM tree. 
     These nodes can be accessed, manipulated, added, or deleted using JavaScript.
 
     -JavaScript Interaction: JavaScript can interact with the DOM to perform various operations like accessing elements, modifying content, 
